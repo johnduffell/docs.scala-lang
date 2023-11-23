@@ -107,7 +107,7 @@ So far the relevant rules are:
 - [Procedure Syntax](https://scalacenter.github.io/scalafix/docs/rules/ProcedureSyntax.html)
 - [Explicit Result Types](https://scalacenter.github.io/scalafix/docs/rules/ExplicitResultTypes.html)
 - Value Eta-Expansion: `fix.scala213.ExplicitNullaryEtaExpansion` in [scala/scala-rewrites](https://github.com/scala/scala-rewrites/blob/main/rewrites/src/main/scala/fix/scala213/ExplicitNullaryEtaExpansion.scala)
-- Parentheses Around Lambda Parameter: `fix.scala213.ParensAroundLambda` in [ohze/scala-rewrites](https://github.com/ohze/scala-rewrites/blob/dotty/rewrites/src/main/scala/fix/scala213/ParensAroundLambda.scala)
+- Parentheses Around Lambda Parameter: `migrate.ParensAroundParam` in [scalacenter/scala3-migrate plugin](https://github.com/scalacenter/scala3-migrate/blame/ebb4a4087ed11899b9010f4c75eb365532694c0a/scalafix/rules/src/main/scala/migrate/ParensAroundParam.scala#L9)
 - Auto Application: `fix.scala213.ExplicitNonNullaryApply` in [scala/scala-rewrites](https://github.com/scala/scala-rewrites/blob/main/rewrites/src/main/scala/fix/scala213/ExplicitNonNullaryApply.scala)
 - `any2stringadd` Conversion: `fix.scala213.Any2StringAdd` in [scala/scala-rewrites](https://github.com/scala/scala-rewrites/blob/main/rewrites/src/main/scala/fix/scala213/Any2StringAdd.scala)
 
